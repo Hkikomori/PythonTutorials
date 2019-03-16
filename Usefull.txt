@@ -1,0 +1,3 @@
+#Access all variables of a class instance
+print(emp1.__dict__)
+{'first': 'Norman', 'last': 'Catalan', 'pay': 100000, 'email': 'Norman.Catalan@company-name.com', 'fullname': 'Norman Catalan'}
