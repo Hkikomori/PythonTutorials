@@ -38,10 +38,15 @@ class Employee:
         return date.weekday() != 5 and date.weekday() != 6
 
 
+
+class Developer(Employee):
+    def __init__(self, first, last, pay, prog_lang):
+        super().__init__(first, last, pay)
+        self.prog_lang = prog_lang
+
+
 def Main():
-    import datetime
-    my_date = datetime.date(2019, 3, 18)
-    print(Employee.is_workday(my_date))
+    dev = Developer('peter', 'griffin', 1000, 'Python')
 
 
 if __name__ == '__main__':
