@@ -1,6 +1,0 @@
-#Access all variables of a class instance
-print(emp1.__dict__)
-{'first': 'Norman', 'last': 'Catalan', 'pay': 100000, 'email': 'Norman.Catalan@company-name.com', 'fullname': 'Norman Catalan'}
-
-print(Employee.__dict__)
-{'__module__': '__main__', 'raise_amount': 1.04, '__init__': <function Employee.__init__ at 0x000001A70561DC80>, '__repr__': <function Employee.__repr__ at 0x000001A7062AD2F0>, 'apply_raise': <function Employee.apply_raise at 0x000001A70615D158>, '__dict__': <attribute '__dict__' of 'Employee' objects>, '__weakref__': <attribute '__weakref__' of 'Employee' objects>, '__doc__': None}
