@@ -11,6 +11,7 @@ print([(letter, num) for letter in 'abcd' for num in '0123'])
 # Dictionary comprehension
 names = ['Bruce', 'Clark', 'Peter', 'Logan']
 heros = ['Batman', 'Superman', 'Spiderman', 'Wolverine']
+
 for a, b in zip(names, heros):
     print(a, b)
 
